@@ -7,7 +7,6 @@ const Footer = () => {
       <p>
         Copyright © <Link to={'/'}>Skyline Counseling</Link>{' '}
         {new Date().getFullYear()}
-        {'.'}
       </p>
     </footer>
   );

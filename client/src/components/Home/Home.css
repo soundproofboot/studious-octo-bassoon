@@ -1,3 +1,25 @@
-.main-section {
-  background-color: rgb(49, 49, 49);
+#home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#logo {
+  color: #2c5196;
+  font-weight: 800;
+  font-size: 4rem;
+  justify-self: end;
+  text-shadow:1px -1px white, 2px -2px black;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#intro {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  font-size: 1.5rem;
+  margin-top: 5em;
+  color: whitesmoke;
+  text-shadow: 1px 1px grey, 2px 2px black;
 }

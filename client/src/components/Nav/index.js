@@ -5,10 +5,9 @@ const Nav = () => {
   return (
     <header>
       <Link to={'/'}>
-        <h1>Skyline <br />Counseling</h1>
+        <h1>Skyline Counseling</h1>
       </Link>
       <nav>
-        <Link to="/about">About Me</Link>
         <Link to="/services">Services</Link>
         <Link to="/contact">Contact</Link>
       </nav>
