@@ -5,14 +5,19 @@ header {
 
 header a {
   text-decoration: none;
-  color: #2c5196
+  color: rgba(44, 81, 150, 1);
+  text-shadow: var(--blue-text-shadow);
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 header h1 {
   margin-left: 1em;
   font-size: 1.7em;
   font-weight: 800;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0);
+  text-shadow: var(--blue-text-shadow);
 }
 
 nav {
@@ -22,3 +27,10 @@ nav {
 nav a {
   margin: 0 1em 0 1em;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

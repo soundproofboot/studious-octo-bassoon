@@ -5,7 +5,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: rgb(95, 77, 212);
+  color: var(--primary);
 }
 
 footer p {

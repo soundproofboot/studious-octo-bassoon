@@ -1,3 +1,10 @@
+:root {
+  --primary: rgba(44, 81, 150, 1);
+  --white-text-shadow: 1px -1px white, 2px -2px black;
+  --blue-text-shadow: 1px 1px white;
+  --transparent-blue: rgba(44, 81, 150, .7);
+}
+
 html { 
   background: url('./assets/skyline-transparent-trim.png'), url('./assets/sunflower.jpg')  no-repeat center center fixed; 
   -webkit-background-size: cover;

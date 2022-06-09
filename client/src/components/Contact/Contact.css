@@ -1,0 +1,41 @@
+#contact-section {
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.5em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.error-text {
+  color: red;
+}
+
+#contact-section h2 {
+  text-shadow: var(--blue-text-shadow);
+}
+#prospective-client-message {
+  background-color: rgba(44, 81, 150, .7);
+  color: whitesmoke;
+  border-radius: 1em;
+  padding: 1em;
+  font-size: .8em;
+}
+
+.form-line {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5em;
+  margin: 1em 0;
+}
+button {
+  background-color: var(--primary);
+  border: none;
+  padding: 1em;
+  border-radius: 1em;
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
