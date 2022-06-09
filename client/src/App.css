@@ -1,13 +1,14 @@
+html { 
+  background: url('./assets/skyline-transparent-trim.png'), url('./assets/sunflower.jpg')  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .App {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
   font-family: 'Nanum Gothic', sans-serif;
-}
-
-.main-section {
-  color: black;
-  background-image: url('./assets/skyline-contrast.jpg');
-  background-size: contain;
-  background-position: top 50%;
 }

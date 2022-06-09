@@ -1,25 +1,81 @@
+:root {
+  --primary: #2c5196
+}
+
 #home {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
 }
 
 #logo {
-  color: #2c5196;
   font-weight: 800;
   font-size: 4rem;
   justify-self: end;
   text-shadow:1px -1px white, 2px -2px black;
-  grid-column-start: 1;
-  grid-column-end: 2;
 }
 
-#intro {
-  grid-row-start: 2;
-  grid-column-start: 3;
-  grid-column-end: 5;
+#image-container {
+  width: auto;
+  height: 70vh;
+  margin: 1em 4em;
+  border-radius: 1em;
+  background-color: var(--primary);
+  border: 1px solid black;
+}
+
+.inside-box {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 1em;
+  top: 1em;
+  border-radius: 1em;
+}
+
+#intro-container {
+  background-color: hsla(250, 60%, 50%, .7);
+  width: 50%;
+  border-radius: 1em;
+  margin: 2em;
+}
+
+#intro-text {
   font-size: 1.5rem;
-  margin-top: 5em;
   color: whitesmoke;
   text-shadow: 1px 1px grey, 2px 2px black;
+  padding: 2em;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+.photo {
+  position: relative;
+  left: .5em;
+  top: .5em;
+  height: 100%;
+  width: 100%;
+  border-radius: 1em;
+}
+
+#tagline {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 3em;
+}
+
+
+/* 480 to 768 */
+@media screen and (max-width: 768px) {
+  * {
+    color: red;
+  }
+}
+
+/* 480 and smaller (phone size) */
+@media screen and (max-width: 480px) {
+  * {
+    color: green;
+  }
 }
