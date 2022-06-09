@@ -1,0 +1,57 @@
+/* #services-page h2 {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: var(--blue-text-shadow);
+} */
+
+.heading {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: var(--blue-text-shadow);
+}
+
+.text-container {
+  background-color: var(--transparent-blue);
+  width: 80%;
+  border-radius: 0.5em;
+  color: whitesmoke;
+  /* text-shadow: var(--white-text-shadow); */
+  font-size: 1.2em;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+.service-container {
+  width: 50vw;
+  height: 60vh;
+  margin-left: 4em;
+  background-image: url('../../assets/services-temp-image.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: .5em;
+}
+
+.service-overlay {
+  position: relative;
+  left: 10%;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--transparent-blue);
+  border-radius: 0.5em;
+}
+
+.service-overlay .heading {
+  padding-top: 1em;
+}
+
+.service-overlay p {
+  color: whitesmoke;
+  font-size: 1.5em;
+  margin-inline: 1em;
+  text-indent: 2em;
+  text-align: left;
+  text-justify: inter-word;
+}

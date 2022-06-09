@@ -6,7 +6,7 @@
 }
 
 html { 
-  background: url('./assets/skyline-transparent-trim.png'), url('./assets/sunflower.jpg')  no-repeat center center fixed; 
+  background: url('./assets/sunflower.jpg')  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
